@@ -1972,11 +1972,13 @@ components:
           description: URL-referentie naar het BESLUITTYPE (in de Catalogi API).
           maxLength: 200
           minLength: 1
+          x-context: schema.conduction.nl/besluittype
         zaak:
           type: string
           title: Zaak
           description: URL-referentie naar de ZAAK (in de Zaken API) waarvan dit besluit uitkomst is.
           maxLength: 200
+          x-context: schema.conduction.nl/zaak
         datum:
           title: Datum
           description: De beslisdatum (AWB) van het besluit.
@@ -2050,6 +2052,7 @@ components:
         - besluittype
         - datum
         - ingangsdatum
+      x-context: schema.conduction.nl/besluit
     Fout:
       required:
         - code
