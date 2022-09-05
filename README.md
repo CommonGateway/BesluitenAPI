@@ -1,4 +1,4 @@
-# Pet Store API
+# Besluiten API
 
 [![Automated Testing](https://github.com/CommonGateway/BesluitenAPI/actions/workflows/tests.yml/badge.svg)](https://github.com/CommonGateway/BesluitenAPI/actions/workflows/tests.yml)
 
