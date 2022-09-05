@@ -3,29 +3,15 @@ schemas:
   Besluit:
   - properties:
       identificatie: string
-      bronorganisatie: string
-      creatiedatum: '2019-08-24'
-      titel: string
-      vertrouwelijkheidaanduiding: openbaar
-      auteur: string
-      status: in_bewerking
-      formaat: string
-      taal: str
-      bestandsnaam: string
-      inhoud: http://example.com
-      bestandsomvang: 0
-      link: http://example.com
-      beschrijving: string
-      ontvangstdatum: '2019-08-24'
+      verantwoordelijkeOrganisatie: string
+      besluittype: string
+      zaak: string
+      datum: '2019-08-24'
+      toelichting: string
+      bestuursorgaan: string
+      ingangsdatum: '2019-08-24'
+      vervaldatum: '2019-08-24'
+      vervalreden: ingetrokken_overheid
+      publicatiedatum: '2019-08-24'
       verzenddatum: '2019-08-24'
-      indicatieGebruiksrecht: true
-      ondertekening:
-        soort: analoog
-        datum: '2019-08-24'
-      integriteit:
-        algoritme: crc_16
-        waarde: string
-        datum: '2019-08-24'
-      informatieobjecttype: http://example.com
-      bestandsdelen:
-      - lock: string
+      uiterlijkeReactiedatum: '2019-08-24'
