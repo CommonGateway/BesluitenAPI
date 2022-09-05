@@ -2040,6 +2040,11 @@ components:
           type: string
           format: date
           nullable: true
+        documenten:
+          x-context: schema.conduction.nl/document
+          type: array
+          items:
+            type: string
       required:
         - verantwoordelijkeOrganisatie
         - besluittype
